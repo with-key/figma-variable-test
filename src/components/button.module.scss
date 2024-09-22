@@ -1,0 +1,10 @@
+.button {
+    border: 1px solid transparent;
+    &.primary {
+        background-color: var(--accent-05);
+        color: white;
+
+        padding-block: var(--spacing-01);
+        padding-inline: var(--spacing-05);
+    }
+}

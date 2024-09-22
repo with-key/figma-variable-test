@@ -1,0 +1,99 @@
+:root {
+    --blue01: #1e90ff;
+    --blue02: #00bfff;
+    --blue03: #87ceeb;
+    --blue04: #4682b4;
+    --blue05: #5f9ea0;
+    --blue06: #6495ed;
+    --blue07: #4169e1;
+    --blue08: #87cefa;
+    --blue09: #87ceeb;
+    --blue10: #87cefa;
+
+    --green01: #2e8b57;
+    --green02: #3cb371;
+    --green03: #2e8b57;
+    --green04: #32cd32;
+    --green05: #228b22;
+    --green06: #008000;
+    --green07: #006400;
+    --green08: #00ff00;
+    --green09: #7cfc00;
+    --green10: #7fff00;
+
+    --red01: #ff6347;
+    --red02: #ff4500;
+    --red03: #ff6347;
+    --red04: #ff0000;
+    --red05: #dc143c;
+    --red06: #b22222;
+    --red07: #8b0000;
+    --red08: #ff69b4;
+    --red09: #ff1493;
+    --red10: #ff1493;
+
+    --yellow01: #ffd700;
+    --yellow02: #ffec8b;
+    --yellow03: #ffec8b;
+    --yellow04: #ff8c00;
+    --yellow05: #ff8c00;
+    --yellow06: #ff8c00;
+    --yellow07: #ff8c00;
+    --yellow08: #ff8c00;
+    --yellow09: #ff8c00;
+    --yellow10: #ff8c00;
+
+    --unit-04: 4px;
+    --unit-12: 12px;
+    --unit-20: 20px;
+    --unit-32: 32px;
+}
+
+body[data-device="mobile"] {
+    --spacing-01: var(--unit-12);
+    --spacing-05: var(--unit-32);
+}
+
+body[data-device="desktop"] {
+    --spacing-01: var(--unit-04);
+    --spacing-05: var(--unit-20);
+}
+
+[data-accent-color="red"] {
+    --accent-01: var(--red01);
+    --accent-02: var(--red02);
+    --accent-03: var(--red03);
+    --accent-04: var(--red04);
+    --accent-05: var(--red05);
+    --accent-06: var(--red06);
+    --accent-07: var(--red07);
+    --accent-08: var(--red08);
+    --accent-09: var(--red09);
+    --accent-10: var(--red10);
+}
+
+[data-accent-color="blue"] {
+    --accent-01: var(--blue01);
+    --accent-02: var(--blue02);
+    --accent-03: var(--blue03);
+    --accent-04: var(--blue04);
+    --accent-05: var(--blue05);
+    --accent-06: var(--blue06);
+    --accent-07: var(--blue07);
+    --accent-08: var(--blue08);
+    --accent-09: var(--blue09);
+    --accent-10: var(--blue10);
+}
+
+[data-accent-color="green"] {
+    --accent-01: var(--green01);
+    --accent-02: var(--green02);
+    --accent-03: var(--green03);
+    --accent-04: var(--green04);
+    --accent-05: var(--green05);
+    --accent-06: var(--green06);
+    --accent-07: var(--green07);
+    --accent-08: var(--green08);
+    --accent-09: var(--green09);
+    --accent-10: var(--green10);
+}
